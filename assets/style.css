@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+body{
+    background-color: #FFF;
+    margin: 0%;
+    display: column;
+    color: #000;
+}
+main{
+    margin-top: 30px;
+    padding: 5px;
+    height: 1;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_main{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+.imgover{
+    background: url("img/Basca2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: visible;
+    height: 50px;
+}
+.traco{
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.1), #000,rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0));
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 80%;
+}
+.container_main > span{
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #fca311, -2px -2px 2px #fca311;
+}
+.rowsep{
+    display: flex;
+}
+.row > input{
+    background-color: #ffffff;
+    border: none;
+    margin: 20px;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    color: #fca2116e;
+}
+.row{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.item{
+    display: block;
+}
+img{
+    width: 50%;
+}
+footer{
+    margin-top: 68vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+}
